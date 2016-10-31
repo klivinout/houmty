@@ -1,0 +1,609 @@
+*** Jarida Changelog ***
+-------------------------------------------------------------------------
+
+Version 2.3.2 - 04-10-2015
+- Updated: The theme is now WordPress 4.3 ready.
+- Updated: The theme is now WooCommerce 2.4 ready.
+- Improved: Storing custom post fields value in the DB.
+- Fixed: Main menu responsive bug.
+- And other improvements and minor bug fixes.
+
+#Files Updated
+- style.css
+- woocommerce/content-product_cat.php
+- woocommerce/content-product.php
+- includes/widgets/ (folder)
+- panel/post-options.php
+- panel/custom-slider.php
+
+
+
+-------------------------------------------------------------------------
+
+Version 2.3.1 - 11-08-2015
+- Improved: Facebook Counter.
+- Improved: Twitter Counter.
+- Fixed: ratingValue may not be empty bug.
+- Fixed: Responsive stick menu position bug.
+- And Improvements and minor bug fixes.
+
+Files updated
+- style.css
+- functions/theme-functions.php
+
+
+
+-------------------------------------------------------------------------
+
+Version 2.3.0 - 01-07-2015
+- NEW FEATURE: New Smart Stick Navigation.
+- NEW FEATURE: Remove Query Strings From Static Resources to improve the load speed.
+- NEW FEATURE: Fly check also box with option to set its position, number of posts and query type.
+- Updated: Facebook API 2.0 - Now you need to get app access token, check the Documentation for more information.
+- Updated: Youtube API 3.0 - Now you need to get API Key ... check the Documentation for more information.
+- Updated: The themeÕs Documentations.
+- Updated: prettyPhoto LightBox Library to version 3.1.6.
+- Updated: New WordPress title function.
+- Improved: Views system.
+- Fixed: Audio Player styling bug.
+- Fixed: Login widget bug for subdirectories installation.
+- Fixed: ToolTip shortcode bug.
+- Fixed: Exclude pages from search bug with bbPress.
+- Fixed: Homepage categories blocks custom colours bug.
+- And Improvements and minor bug fixes.
+
+Files updated
+- style.css
+- header.php
+- footer.php
+- panel/mpanel-ui.php
+- panel/mpanelfunctions.php
+- js/tie-scripts.js
+- functions/common-scripts.php
+- functions/theme-functions.php
+- functions/tie-views.php
+- includes/check-also.php
+- includes/widgets/widget-counter.php
+- includes/widgets/widget-reviews.php
+- panel/shortcodes/customcodes.php
+- panel/shortcodes/shortcode.php
+- single.php
+
+
+
+-------------------------------------------------------------------------
+
+Version 2.2.1 - 06-08-2014
+- Fixed: PHP warnings messages.
+- Fixed: Custom background bug for Categories and posts.
+- Fixed: Box shortcode bug.
+
+Files updated
+- style.css
+- sidebar.php
+- panel/mpanel-functions.php
+- functions/common-scripts.php
+
+
+-------------------------------------------------------------------------
+
+Version 2.2.0 - 21-07-2014
+- Added: WPML Support for custom code area in the homepage builder.
+- Added: RTL demo content XML file in the theme package.
+- Added: Italiano, Spanish, Turkish, French, Russian and Urdu languages files.
+- Improved: Images lightbox on Mobiles.
+- Improved : Some RTL Styles.
+- Fixed: All known php warnings when the wp_debug is enabled.
+- Fixed: BuddyPress pages comments bug.
+- Fixed: OG image bug in BuddyPress pages.
+- Fixed: Review widget bug.
+- Fixed: pagination bug in blog list page template.
+- Fixed: Tabs shortcode bug.
+- Fixed: Categories bug in the slider widget.
+- Fixed: stick navigation bug with footer area.
+- Fixed: stick navigation bug with sub-menu links.
+- Fixed: Full screen video bug with animated content effect.
+- And other improvements and minor bug fixes.
+
+Files updated
+- style.css
+- rtl.css
+- footer.php
+- sidebar.php
+- header.php
+- page.php
+- single.php
+- template-blog.php
+- js/tiescripts.js
+- functions/common-scripts.php
+- functions/theme-functions.php
+- functions/home-cats-wide.php
+- functions/home-cat-pic.php
+- functions/home-cats.php
+- functions/home-cat-scroll.php
+- functions/home-recent-box.php
+- panel/mpanel-ui.php
+- panel/js/tie.js
+- panel/post-options.php
+- panel/mpanel-functions.php
+- panel/custom-slider.php
+- panel/shortcodes/shortcodes/ui.php
+- panel/shortcodes/shortcode.php
+- includes/post-share.php
+- includes/post-head.php
+- includes/widgets/ (folder)
+
+
+-------------------------------------------------------------------------
+
+Version 2.1.1 - 13-02-2014
+- Improved: Compatible with the new WooCommerce plugin version 2.1+ ( After Update the plugin you need to re-add thw shop widgets in the shop sidebar ).
+- Improved: Breaking News module position before loading the theme's js file.
+- Fixed: Mega menu HTML bug.
+- Fixed: vimeo video og image bug.
+- Fixed: StumbleUpon post URL bug.
+- Fixed: Appearance of content bug on Android browsers.
+- And other improvements and minor bug fixes.
+
+Files updated
+- style.css
+- header.php
+- functions/common-scripts.php
+- functions/theme-functions.php
+- Woocommere/ (folder)
+
+
+- If your current version is 1+ Please replace whole folder. We changed too many files in v2.0.
+
+
+-------------------------------------------------------------------------
+
+Version 2.1.0 - 03-02-2014
+- NEW FEATURE: Offset option in the Homepage boxes.
+- NEW FEATURE: Compatible with the UberMenu plugin.
+- Improved: Some RTL styling.
+- Improved: woocommerce shop page sidebar position option.
+- Improved: custom background and color options for Woocommerce shop page. 
+- Fixed: Title bug in the Text or Html widget.
+- Fixed: bbPress user profile bug.
+- Fixed: Authors social icons in authors template page.
+- Fixed: Submit button bug when jquery validation option set to ON .
+- Fixed: Top navigation apperance and styling issues.
+- Fixed: Mega menus styling bug in the Scrolling nav.
+- Fixed: WPML bug in the Recent posts widget.
+- Fixed: Elastic Slideshow overlay on main nav menu.
+- Fixed: Stick Main Nav bug with Safari7 on Mac.
+- Fixed: Slective posts option in the main slider bug.
+- And other improvements and minor bug fixes.
+
+Files updated
+- style.css
+- header.php
+- rtl.css
+- bbpress.php
+- template-authors.php
+- js/tie-scripts.js
+- panel/post-options.php
+- panel/mpanel-ui.php
+- panel/style.css
+- panel/js/tie.js
+- includes/widgets/widget-authors-posts.php
+- includes/widgets/widget-category.php
+- includes/widgets/widget-news-pic.php
+- includes/widgets/widget-slider.php
+- includes/widgets/widget-text-html.php
+- includes/slider.php
+- functions/common-scripts.php
+- functions/theme-functions.php
+- functions/home-cat-pic.php
+- functions/home-cats.php
+- functions/home-cat-scroll.php
+- functions/home-cats-wide.php
+- functions/home-recent-box.php
+
+
+- If your current version is 1+ Please replace whole folder. We changed too many files in v2.0.
+
+
+
+-------------------------------------------------------------------------
+
+Version 2.0.1 - 26-01-2014
+- Improved: Alignment of responsive Ads.
+- Fixed: bbPress custom sidebars bug.
+- Fixed: Categories custom sidebars bug.
+- Fixed: IE9 content appearance bug.
+- Fixed: Language Selector widget appearance bug.
+- Fixed: Web Safe Fonts Typography bug.
+- And other improvements and minor bug fixes.
+
+Files updated
+- style.css
+- sidebar.php
+- functions/tie-views.php
+- functions/common-scripts.php
+
+- If your current version is 1+ Please replace whole folder. We changed too many files in v2.0.
+
+
+
+-------------------------------------------------------------------------
+
+Version 2.0.0 - 23-01-2014
+
+- NEW FEATURE: New TiePanel modern Flat and Clean design .
+- NEW FEATURE: Retina Ready .
+- NEW FEATURE: Buddypress Ready .
+- NEW FEATURE: WPML Ready .
+- NEW FEATURE: bbPress Ready .
+- NEW FEATURE: Lazy Load content with option to disable it .
+- NEW FEATURE: Responsive Google AdSense .
+- NEW FEATURE: Instagram Followers Counter .
+- NEW FEATURE: SoundCloud Followers Counter .
+- NEW FEATURE: Behance Followers Counter .
+- NEW FEATURE: Best Reviews page template with options to set categories and the number of posts .
+- NEW FEATURE: Mega menu for categories links in the main nav to show latest 3 posts .
+- NEW FEATURE: Supports breadcrumbs rich snippets .
+- NEW FEATURE: Schema SEO Rich Snippet Authors Microdata.
+- NEW FEATURE: options to set Custom background and colors for posts and pages .
+- NEW FEATURE: Unlimited Review Criterias .
+- NEW FEATURE: Drag and drop feature to sort the Review Criterias.
+- NEW FEATURE: Support HTML in Review Summary.
+- NEW FEATURE: Support Custom sliders in the slider widget .
+- NEW FEATURE: Meta options for the Homepage boxes .
+- NEW FEATURE: Meta options for archives and Homepage blog layout .
+- NEW FEATURE: Option to Hide Slides caption .
+- NEW FEATURE: Option to set the length of Slides caption .
+- NEW FEATURE: option to set number of posts in tabbed widget .
+- NEW FEATURE: option to upload a Retina Version of the site logo.
+- NEW FEATURE: Nofollow option for banners .
+- NEW FEATURE: Apple devices Friendly .
+- NEW FEATURE: Background image ADS .
+- NEW FEATURE: Post link on the image in the Elastic slider .
+- NEW FEATURE: Full Share buttons on archives .
+- NEW FEATURE: Facebook Like and tweet buttons on the lightbox.
+- NEW FEATURE: Multiple categories selection for blog list page template .
+- NEW FEATURE: option to set User Roles for the authors page template .
+- NEW FEATURE: Option to set custom Title for the related posts box .
+- NEW FEATURE: Supports Youtube channels in the social counter widget .
+- NEW FEATURE: Variable tags to display current year , Site name and site URL dynamically in footer areas .
+- NEW FEATURE: New Social icons for 500px – Soundcloud , github and foursquare
+- NEW FEATURE: Behance and instagram in the author social links
+- NEW FEATURE: Multiple rows supported in the main nav .
+- NEW FEATURE: Live typography preview .
+- NEW FEATURE: Added new 129 Google Fonts .
+- NEW FEATURE: New Web Safe Fonts .
+- NEW FEATURE: One Click Auto-Install demo sample data .
+- NEW FEATURE: Typography option for Khmer and Vietnamese Google fonts Character sets .
+- NEW FEATURE: Support for responsive google adsense asynchronous code.
+- NEW FEATURE: compatible with IE on Windows 8 Tablets.
+- NEW FEATURE: compatible with [audio] [video] introduced in WP3.6.
+- Improved: theme updates notifier cache .
+- Improved: Columns shortcode now responsive .
+- Improved: H1 tag for categories and tags titles in archives pages .
+- Improved: Search when “Exclude Pages in results” option enabled .
+- Improved: Share Buttons load time .
+- Improved: Wp_title() function .
+- Improved: Thumbnails functions .
+- Improved: Facebook Counter function .
+- Improved: Twitter Counter function .
+- Improved: Twitter widget .
+- Improved: User ratings stars on Firefox .
+- Improved: Facebook widget .
+- Improved: Flex slider start time .
+- Improved: “Category Archives:” Removed from categories page .
+- Improved: All Categories settings moved to category edit page .
+- Improved: RTL Style issues .
+- Improved: MySql queries speed.
+- Improved: Support charset options for the default fonts.
+- Improved: Most Commented posts function .
+- Improved: All theme js files moved to the footer to improve theme speed.
+- Improved: Video Height in the responsive mode .
+- Fixed: Recent posts box pagination bug.
+- Fixed: The number of posts in the recent posts box when there are sticky posts.
+- Fixed: Vertical tabs shortcode height bug.
+- Fixed: Woocommerce Images sizes ( Deactivate the theme and re-activate it again to apply the changes) .
+- Fixed: Columns shortcode in box shortcode bug .
+- Fixed: Google plus share post title bug .
+- Fixed: Error message when no criterias for the review .
+- Fixed: Rich snippets of pages .
+- Fixed: Review bug with IE8 .
+- Fixed: custom login page dashboard logo size bug in WordPress 3.8 .
+- Fixed: Style issue in the Google Plus widget.
+- Fixed: Number of faces appeared in the facebook like box widget.
+- Fixed: Dropcap and Highlight shortcodes in excerpts .
+- Fixed: Lists bullets on IE11.
+- Fixed: number_format warning bug in view module .
+- Fixed: OG describtion length bug.
+- Fixed: Sidebar position bug in 2 columns layout.
+- Fixed: Javascript error when breaking news module empty .
+- Fixed: Conflict between views module and cache plugins (beta).
+- Fixed: IE8 style issues.
+- And other improvements and minor bug fixes.
+
+Files updated
+- Please replace whole folder. We changed too many files in this version.
+
+
+-------------------------------------------------------------------------
+
+Version 1.5.0 - 28-07-2013
+
+- NEW FEATURE: Display the featured image caption in the single post page.
+- NEW FEATURE: Active title link for the scrolling and news in picture boxes .
+- NEW FEATURE: Schema SEO Rich Snippet Authors Microdata.
+- NEW FEATURE: OG Meta for posts with option to disable it .
+- NEW FEATURE: Pagination option for recent posts box in homepage builder.
+- NEW FEATURE: Compatibility with Infinite Scroll plugin .
+- Improved: Theme Performance and Speed by caching the Social counters for 20 minutes .
+- Improved: Twitter Counter function.
+- Improved: Timeline Template page.
+- Improved: Slider in the full width posts.
+- Improved: Responsive style .
+- Improved: Buttons style on iPhones/iPad .
+- Improved: Theme updates notifier cache .
+- Improved: Vertical tabs shortcode height.
+- Improved: WooCommerce responsive layout.
+- Improved: Lightbox responsive layout.
+- Improved: Post views number format.
+- Fixed: Sidebars position bug .
+- Fixed: 300 width ADs on mobiles . 
+- Fixed: Social icons in author pages.
+- Fixed: Google Plus widget in RTL version.
+- Fixed: Delete Homepage builder items and custom slides icon.
+- Fixed: Conflict with wordpress related posts plugins.
+- Updated: Theme Documentations .
+- And other improvements and minor bug fixes.
+
+
+Files Updated
+- style.css
+- rtl.css
+- author.php
+- loop.php
+- single.php
+- functions.php
+- functions/theme-functions.php
+- functions/common-scripts.php
+- functions/home-cat-scroll.php
+- functions/home-cats-wide.php
+- functions/home-cat-pic.php
+- functions/home-recent-box.php
+- functions/tie-views.php
+- includes/post-head.php
+- includes/pagenavi.php
+- includes/twitteroauth/ (folder)
+- template-timeline.php
+- panel/post-options.php
+- panel/style.css
+- panel/custom-slider.php
+- panel/shortcodes/ui.php
+- panel/mpanel-ui.php
+- panel/js/tie.js
+- js/tabs.min.js
+- includes/widgets/widget-news-pic.php
+- includes/widgets/widget-posts.php
+- includes/widgets/widget-tabbed.php
+- includes/widgets/widget-category.php
+- includes/widgets/widget-authors-posts.php
+- includes/widgets/widget-comments-avatar.php
+
+
+-------------------------------------------------------------------------
+
+Version 1.4.0 - 18-06-2013
+
+- NEW FEATURE: Reviews for pages.
+- NEW FEATURE: Support Content column in the middle in the pages.
+- NEW FEATURE: Support shortcodes in AD widgets .
+- Updated : Theme functions to use Twitter Api 1.1 .
+- Improved: Elastic Slideshow Slides Images ALT .
+- Improved: Lightbox Next/Prev arrows.
+- Improved: Body background with Full Screen Background option.
+- Improved: Content width for the full width posts/pages.
+- Improved: Site title and tagline typography options.
+- Fixed: Time Ago Format bug.
+- Fixed: Footer Social icon option.
+- Fixed: post head videos conflict with the main nav on IE .
+- Fixed: Timeline page comments.
+- And other improvements and minor bug fixes.
+
+Files Updated
+- style.css
+- footer.php
+- page.php
+- single.php
+- template-timeline.php
+- includes/twitteroauth/ (folder)
+- js/tie-scripts.js
+- functions/theme-functions.php
+- functions/common-scripts.php
+- functions/home-cats-wide.php
+- panel/mpanel-ui.php
+- panel/post-options.php
+- includes/slider.php
+- includes/slider-category.php
+- includes/post-head.php
+- includes/widgets/widget-ads.php
+
+
+-------------------------------------------------------------------------
+
+Version 1.3.2 - 19-05-2013
+
+- Improved : Shortcodes issues .
+- Improved : wp_title() function .
+- Improved : Facebook counter function  .
+- Fixed : Sidebar Slider position on small devices .
+- Fixed : Ad Widgets bug .
+- Fixed : Wide News box bug .
+- And other improvements and minor bug fixes.
+
+Files Updated
+- style.css
+- rtl.css
+- header.php
+- functions/theme-functions.php
+- functions/common-scripts.php
+- includes/widgets/widget-author.php
+- panel/mpanel-ui.php
+
+
+-------------------------------------------------------------------------
+
+Version 1.3.1 - 16-05-2013
+
+- Improvements and minor bug fixes.
+
+Files Updated
+- Style.css
+- rtl.css
+- js/tie-scripts.js
+- panel/js/tie.js
+- panel/mpanel-ui.php
+- panel/mpanel-functions.php
+- functions/theme-functions.php
+
+
+-------------------------------------------------------------------------
+
+Version 1.3.0 - 13-05-2013
+
+- NEW FEATURE: WooCommerce Compatibility .
+- NEW FEATURE: Ability to choose Normal fonts Tahmoa , Arial , Georgia , etc from fonts list .
+- NEW FEATURE: 6 Arabic fonts .
+- NEW FEATURE: Archives 2 Columns Layout .
+- NEW FEATURE: Best reviews , Most viewed option to the posts list widget .
+- NEW FEATURE: Option to show most viewed posts in the tabbed widget .
+- NEW FEATURE: Users ratings .
+- Improved : change the footer bottom area with main footer color option .
+- Improved : Facebook like button to show the comment area .
+- Improved : Responsive issues .
+- Improved : Categories Wide news box .
+- Fixed : Author widgets bug .
+- Fixed : Breadcrumbs bug when the post doesn't have a category .
+- Fixed : Button shortcode bug .
+- Fixed : Register page link in the login widget .
+- Updated : Theme Documentations .
+- Improvements and minor bug fixes.
+
+
+Files updated
+- Please replace whole folder. We changed too many files in this version.
+
+
+-------------------------------------------------------------------------
+
+Version 1.2.1 - 15-04-2013
+
+- Improvements and minor bug fixes.
+
+Files Updated
+- style.css
+- index.php
+- single.php
+- functions/home-recent-box.php
+- functions/home-cats-wide.php
+- functions/home-cat-scroll.php
+- functions/home-cats.php
+
+
+-------------------------------------------------------------------------
+
+Version 1.2.0 - 10-04-2013
+
+- NEW FEATURE: Supports Shortcodes in banners area .
+- NEW FEATURE: Content column in the middle .
+- NEW FEATURE: Styling Option to set the Highlighted Color .
+- NEW FEATURE: Styling Option to set the main nav Seprators lines Color .
+- NEW FEATURE: Styling Option to set background for the header area .
+- NEW FEATURE: Option to disable theme gallery to use Jetpack Tiled Galleries .
+- NEW FEATURE: Typography option to change the font family and size of post title in the slider .
+- NEW FEATURE: Typography option to change the font family and size of post title in the Homepage boxes.
+- Improvements and minor bug fixes.
+
+Files Updated
+- panel/ (folder)
+- functions/ (folder)
+- style.css
+- includes/widgets/widget-social.php
+- header.php
+- index.php
+- sidebar.php
+- sidebar-home1.php
+- sidebar-home2.php
+- loop.php
+- archive.php
+- author.php
+- category.php
+- page.php
+- search.php
+- single.php
+- tag.php
+- template-authors.php
+- template-blog.php
+- template-login.php
+- template-restrict.php
+- template-sitemap.php
+- template-tags.php
+- template-timeline.php
+
+
+-------------------------------------------------------------------------
+
+Version 1.1.2 - 29-03-2013
+
+- Improvements and minor bug fixes.
+
+Files Updated
+- style.css
+- rtl.css
+- functions.php
+- sidebar.php
+
+
+-------------------------------------------------------------------------
+
+Version 1.1.1 - 27-03-2013
+
+- Improvements and minor bug fixes.
+
+Files Updated
+- style.css
+- functions/common-scripts.php
+- panel/mpanel-ui.php
+- panel/post-options.php
+- includes/widgets/widget-twitter.php
+- css/ie8.css
+- images/separate.png
+
+
+-------------------------------------------------------------------------
+
+Version 1.1.0 - 25-03-2013
+
+- NEW FEATURE: Add option to use Two Columns instead of 3 columns .
+- NEW FEATURE: Typography option for Site Title and Tagline in header .
+- NEW FEATURE: Option to show colored boxes in the homepage .
+- Improvements and minor bug fixes.
+
+Files Updated
+- style.css
+- rtl.css
+- header.php
+- panel/mpanel-ui.php
+- panel/post-options.php
+- functions/default-options.php
+- functions/widgetize-theme.php
+- functions/common-scripts.php
+- functions/home-cats.php
+- functions/home-cat-pic.php
+- functions/home-cat-scroll.php
+- functions/home-cats-wide.php
+- includes/post-head.php
+
+
+-------------------------------------------------------------------------
+
+Version 1.0.0
+- First release
